@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formação</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }               
+        .container {
+            display: grid;
+        }
+        header {
+            grid-column-start: 1;
+            grid-column-end: 12;
+            background-color:rgb(31, 195, 245);
+            border-radius: 2rem 4rem;
+            box-shadow: 2px 2px 2px rgb(102, 102, 102);
+        }
+        .menu {
+            grid-column-start: 6;
+            grid-column-end: 12;
+            justify-content: center;            
+            font-size: 19px;
+            font-weight: bold;
+            padding-top: 20px;            
+        }        
+        .principal {
+            grid-column-start: 1;
+            grid-column-end: 12;
+            padding-left: 20px;
+            padding-right: 20px;
+            text-align: justify;
+        }
+        footer {
+            grid-column-start: 1;
+            grid-column-end: 12;
+            background-color: rgb(31, 195, 245);
+            color: white;
+            text-align: center;
+            border-radius: 2rem 4rem;
+            box-shadow: 2px 2px 2px rgb(102, 102, 102);
+        }        
+        ul {
+            list-style-type: none;            
+        }
+        a,
+        a:link {
+            text-decoration: none;
+            color: black;
+            padding: 12px 10px;
+            border: solid #13b7e9 1px;
+            border-radius: 1rem 2rem;
+            box-shadow: 2px 2px 2px rgb(92, 187, 224);
+        }
+        li {
+            float:left;
+            padding-left: 10px;            
+        }
+        a:hover {
+            background-color: #13b7e9;
+            color: white;
+            box-shadow: 2px 2px 2px rgb(71, 71, 71);
+        }        
+        /* Querry para Celulares*/
+        @media only screen and (max-width: 450px) {
+            .wrapper {
+                grid-column-start: 1;
+                grid-column-end: 1;
+            }
+            .principal {
+                grid-column-start: 1;
+                grid-column-end: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="container">
+        <br>
+        <h1 style="color: white; text-align: center;">Davi Guedes da Silva</h1>
+        <br>
+    </header>
+    <nav class="container menu">
+        <ul>
+            <li><a href="index.html">Sobre Mim</a></li>
+            <li><a href="Formacao.html">Formação</a></li>
+            <li><a href="Portfolio.html">Portfólio</a></li>
+            <li><a href="Contato.html">Contato</a></li>
+        </ul>
+    </nav>
+    <div class="container wrapper">
+        <section class="principal">
+            <h1>Formação e Experiências</h1>
+            <h3>Curso Técnico em Eletrotécnica</h3>
+            <p>UNITEN 2011</p>
+            <h3>Cursos online</h3>
+            <p>Photoshop</p>
+            <p>Illustrator</p>
+            <p>After Effects</p>
+            <p>Davinci Resolve</p>                 
+        </section>
+    
+    <footer class="container">
+        <p>2024</p>
+    </footer>
+</body>
+</html>
