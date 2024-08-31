@@ -26,9 +26,10 @@
         .menu {
             grid-column-start: 6;
             grid-column-end: 12;
-            justify-content: center;       
+            justify-content: center;   
             font-size: 19px;
-            font-weight: bold;                        
+            font-weight: bold;
+                        
         }        
         .principal {
             grid-column-start: 1;
@@ -45,6 +46,7 @@
             font-size: 18px;
             padding: 15px;
         }
+        
         footer {
             grid-column-start: 1;
             grid-column-end: 12;
@@ -67,9 +69,9 @@
             box-shadow: 2px 2px 2px rgb(92, 187, 224);
         }
         li {
-            float: left;            
-            padding: 15px 10px;
-        }        
+            float: left;
+            padding: 20px 5px 15px 5px;
+        }
         a:hover {
             background-color: #13b7e9;
             color: white;
@@ -86,8 +88,7 @@
             }
             .menu {
                 grid-column-start: 1;
-                grid-column-end: 1;
-                padding: 15px;                
+                grid-column-end: 1;                                               
             }
         }
     </style>
@@ -111,17 +112,18 @@
             <h2>Entre em contato</h2>
             <form action="" method="POST"> 
                 <label for="nome"><b>Nome:</b></label>
-                <input type="text" name="nome" placeholder=" Digite seu nome" size="25" class="borda">
+                <input type="text" name="nome" placeholder=" Digite seu nome" size="50" class="borda">
                 <br><br>                
                 <label for="Email"><b>Email:</b></label>
-                    <input type="email" name="e-mail" placeholder=" Digite seu email" size="25" class="borda">
+                    <input type="email" name="e-mail" placeholder=" Digite seu email" size="50" class="borda">
                     <br><br>
                 <b>Mensagem:</b>
                 <br><br>                
-                    <textarea name="mensagem" rows="5" cols="30" placeholder=" Digite sua mensagem" class="borda"></textarea>
+                    <textarea name="mensagem" rows="10" cols="58" placeholder=" Digite sua mensagem" class="borda"></textarea>
                     <br>
                 <button type="submit" class="borda">Enviar</button>
-                <br><br>       
+                <br><br>
+            </form>       
         </section>
     </div>
     <footer class="container">
